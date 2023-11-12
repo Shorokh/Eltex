@@ -1,0 +1,86 @@
+trpo@virtual-machine:~/Eltex/HW1$ ./hw1 
+Choose the exercise number:
+1 - positive number into binary
+2 - negative number into binary
+3 - how many zeros in bin form
+4 - change thid bit in number whatewer you want
+5 - quit the program
+
+1
+Input number to convert:
+123456789
+00000111 01011011 11001101 00010101 
+Choose the exercise number:
+1 - positive number into binary
+2 - negative number into binary
+3 - how many zeros in bin form
+4 - change thid bit in number whatewer you want
+5 - quit the program
+
+2
+Input number to convert:
+-123456789
+11111000 10100100 00110010 11101011 
+Choose the exercise number:
+1 - positive number into binary
+2 - negative number into binary
+3 - how many zeros in bin form
+4 - change thid bit in number whatewer you want
+5 - quit the program
+
+3
+Input number to calculate zeros in bin form:
+123456789
+16 x"1" 
+Choose the exercise number:
+1 - positive number into binary
+2 - negative number into binary
+3 - how many zeros in bin form
+4 - change thid bit in number whatewer you want
+5 - quit the program
+
+3
+Input number to calculate zeros in bin form:
+-123456789
+17 x"1" 
+Choose the exercise number:
+1 - positive number into binary
+2 - negative number into binary
+3 - how many zeros in bin form
+4 - change thid bit in number whatewer you want
+5 - quit the program
+
+4
+Input number where change the third byte:
+123456789
+Type number in range from 0 to 255
+200
+from: 123456789
+00000111 01011011 11001101 00010101 
+we have: 131845397
+00000111 11011011 11001101 00010101 
+Choose the exercise number:
+1 - positive number into binary
+2 - negative number into binary
+3 - how many zeros in bin form
+4 - change thid bit in number whatewer you want
+5 - quit the program
+
+4
+Input number where change the third byte:
+100
+Type number in range from 0 to 255
+100
+from: 100
+00000000 00000000 00000000 01100100 
+we have: 6553700
+00000000 01100100 00000000 01100100 
+Choose the exercise number:
+1 - positive number into binary
+2 - negative number into binary
+3 - how many zeros in bin form
+4 - change thid bit in number whatewer you want
+5 - quit the program
+
+5
+
