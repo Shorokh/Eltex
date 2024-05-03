@@ -1,0 +1,45 @@
+***********************************************/make/***********************************************
+valya@virtual-machine:~/Eltex/HW3$ make
+**********************************************/task_1/**********************************************
+valya@virtual-machine:~/Eltex/HW3$ ./task_1.o
+Please, type positive integer number in which to change 3rd byte: 123456789
+Please, type positive integer number, ranging from 0 to 255: 0
+Number by the bytes:
+7       91->0   205     21
+117493013
+valya@virtual-machine:~/Eltex/HW3$ ./task_1.o
+Please, type positive integer number in which to change 3rd byte: 123456789
+Please, type positive integer number, ranging from 0 to 255: 9
+Number by the bytes:
+7       91->9   205     21
+118082837
+**********************************************/task_2/**********************************************
+valya@virtual-machine:~/Eltex/HW3$ ./task_2.o 
+x = 5.000000, y = 6.000000
+Результат: 12.000000
+**********************************************/task_3/**********************************************
+valya@virtual-machine:~/Eltex/HW3$ ./task_3.o 
+1 2 3 4 5 6 7 8 9 10 
+**********************************************/task_4/**********************************************
+valya@virtual-machine:~/Eltex/HW3$ ./task_4.o 
+Enter the string in which to search for the substring:
+1234456789
+Enter the substring:
+44
+
+1<-bf1148b0 2<-bf1148b1 3<-bf1148b2 4<-bf1148b3 4<-bf1148b4 5<-bf1148b5 6<-bf1148b6 7<-bf1148b7 8<-bf1148b8 9<-bf1148b9 
+4<-bf114840 4<-bf114841 
+
+pointer of substring start:
+bf1148b3
+valya@virtual-machine:~/Eltex/HW3$ ./task_4.o 
+Enter the string in which to search for the substring:
+1111111111111111111
+Enter the substring:
+2
+
+1<-355b3420 1<-355b3421 1<-355b3422 1<-355b3423 1<-355b3424 1<-355b3425 1<-355b3426 1<-355b3427 1<-355b3428 1<-355b3429 1<-355b342a 1<-355b342b 1<-355b342c 1<-355b342d 1<-355b342e 1<-355b342f 1<-355b3430 1<-355b3431 1<-355b3432 
+2<-355b33b0 
+
+pointer of substring start:
+0

@@ -2,6 +2,7 @@
 *
 !/**/
 !*.*
+*.o
 # But track Makefile
 !Makefile
 
