@@ -1,0 +1,172 @@
+***********************************************/make/***********************************************
+valya@virtual-machine:~/Eltex/HW4$ make
+***********************************************/start program/**************************************
+*************/in the task subscriber book size is 100, there to show filling size=10/***************
+valya@virtual-machine:~/Eltex/HW4$ ./homework 
+Choose action:
+1 - Add new subscriber
+2 - Delete specific subscriber
+3 - Find subscribers by name
+4 - Show all subscribers
+5 - Quit
+1                                                   //input by user
+Input name: Ivan                                    //input by user
+Input second name: Ivanov                           //input by user
+Input phone number: 88005553535                     //input by user
+Ivan Ivanov 8800555353                              //output of program 
+
+Choose action:
+1 - Add new subscriber
+2 - Delete specific subscriber
+3 - Find subscribers by name
+4 - Show all subscribers
+5 - Quit
+1
+Input name: Ivan
+Input second name: Petrov
+Input phone number: 123456789
+Ivan Petrov 123456789 
+
+Choose action:
+1 - Add new subscriber
+2 - Delete specific subscriber
+3 - Find subscribers by name
+4 - Show all subscribers
+5 - Quit
+1
+Input name: Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Input second name: Aaaaaaaaaaaaaaaaaaaaaaaa
+Input phone number: 7777777777777777777
+Aaaaaaaaaaaaaaaaaaaa Aaaaaaaaaaaaaaaaaaaa 7777777777 
+
+Choose action:
+1 - Add new subscriber
+2 - Delete specific subscriber
+3 - Find subscribers by name
+4 - Show all subscribers
+5 - Quit
+1
+Input name: Aaa
+Input second name: Aaa
+Input phone number: 11111
+Aaa Aaa 11111 
+
+Choose action:
+1 - Add new subscriber
+2 - Delete specific subscriber
+3 - Find subscribers by name
+4 - Show all subscribers
+5 - Quit
+1
+Input name: Bbb
+Input second name: Bbb
+Input phone number: Bbb
+Bbb Bbb Bbb 
+
+Choose action:
+1 - Add new subscriber
+2 - Delete specific subscriber
+3 - Find subscribers by name
+4 - Show all subscribers
+5 - Quit
+1    
+Input name: Ccc
+Input second name: Ccc
+Input phone number: 33333
+Ccc Ccc 33333 
+
+Choose action:
+1 - Add new subscriber
+2 - Delete specific subscriber
+3 - Find subscribers by name
+4 - Show all subscribers
+5 - Quit
+1
+Input name: Ddd
+Input second name: Ddd
+Input phone number: Eee
+Ddd Ddd Eee 
+
+Choose action:
+1 - Add new subscriber
+2 - Delete specific subscriber
+3 - Find subscribers by name
+4 - Show all subscribers
+5 - Quit
+1
+Input name: Aaa
+Input second name: Aaa
+Input phone number: 88888
+Aaa Aaa 88888 
+
+Choose action:
+1 - Add new subscriber
+2 - Delete specific subscriber
+3 - Find subscribers by name
+4 - Show all subscribers
+5 - Quit
+1
+Input name: Aaa
+Input second name: Aaa
+Input phone number: Aaa
+Aaa Aaa Aaa 
+
+Choose action:
+1 - Add new subscriber
+2 - Delete specific subscriber
+3 - Find subscribers by name
+4 - Show all subscribers
+5 - Quit
+1
+Input name: 4  
+Input second name: 4
+Input phone number: 4
+4 4 4 
+
+Choose action:
+Addition of new subscribers is impossible - the book is fool    //after filling book we can't add new sub
+2 - Delete specific subscriber
+3 - Find subscribers by name
+4 - Show all subscribers
+5 - Quit
+4
+1) Ivan Ivanov 8800555353 
+2) Ivan Petrov 123456789 
+3) Aaaaaaaaaaaaaaaaaaaa Aaaaaaaaaaaaaaaaaaaa 7777777777 
+4) Aaa Aaa 11111 
+5) Bbb Bbb Bbb 
+6) Ccc Ccc 33333 
+7) Ddd Ddd Eee 
+8) Aaa Aaa 88888 
+9) Aaa Aaa Aaa 
+10) 4 4 4 
+
+Choose action:
+Addition of new subscribers is impossible - the book is fool
+2 - Delete specific subscriber
+3 - Find subscribers by name
+4 - Show all subscribers
+5 - Quit
+1
+The input is incorrect, try again.
+
+Choose action:
+Addition of new subscribers is impossible - the book is fool
+2 - Delete specific subscriber
+3 - Find subscribers by name
+4 - Show all subscribers
+5 - Quit
+q
+The input is incorrect, try again.
+
+Choose action:
+Addition of new subscribers is impossible - the book is fool
+2 - Delete specific subscriber
+3 - Find subscribers by name
+4 - Show all subscribers
+5 - Quit
+5
+valya@virtual-machine:~/Eltex/HW4$ 
+
+
+
