@@ -11,3 +11,7 @@ menu.o: menu.c
 
 subscriber.o: subscriber.c
 	gcc -c subscriber.c
+	
+clean:
+	rm *.o
+	rm homework
