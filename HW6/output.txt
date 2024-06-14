@@ -1,0 +1,105 @@
+valya:~/Eltex/HW6$ ./homework 
+
+Choose action:                                  \\Add some subscribers
+1 - Add new subscriber
+2 - Delete specific subscriber
+3 - Find subscribers by name
+4 - Show all subscribers
+5 - Quit
+1
+Input name: Eve
+Input second name: A
+Input phone number: 565546456
+Eve A 565546456 
+
+Choose action:
+1 - Add new subscriber
+2 - Delete specific subscriber
+3 - Find subscribers by name
+4 - Show all subscribers
+5 - Quit
+1
+Input name: Eve
+Input second name: B
+Input phone number: 935094854
+Eve B 9350948543 
+
+Choose action:
+1 - Add new subscriber
+2 - Delete specific subscriber
+3 - Find subscribers by name
+4 - Show all subscribers
+5 - Quit
+1
+Input name: Eve
+Input second name: C
+Input phone number: 34535435
+Eve C 34535435 
+
+Choose action:
+1 - Add new subscriber
+2 - Delete specific subscriber
+3 - Find subscribers by name
+4 - Show all subscribers
+5 - Quit
+3                                               \\ Find by name
+Input name: Eve
+Found subscribers:
+Eve A 565546456 
+Eve B 9350948543 
+Eve C 34535435 
+
+Choose action:
+1 - Add new subscriber
+2 - Delete specific subscriber
+3 - Find subscribers by name
+4 - Show all subscribers
+5 - Quit
+2                                               \\Delete subscriber
+1) Eve A 565546456 
+2) Eve B 9350948543 
+3) Eve C 34535435 
+Which subscriber to delete, input number:1
+1) Eve C 34535435 
+2) Eve B 9350948543 
+
+Choose action:
+1 - Add new subscriber
+2 - Delete specific subscriber
+3 - Find subscribers by name
+4 - Show all subscribers
+5 - Quit
+1
+Input name: Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Input second name: Aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Input phone number: 3333333333333333333333333333
+Aaaaaaaaaaaaaaaaaaaa Aaaaaaaaaaaaaaaaaaaa 33333333333 
+
+Choose action:
+1 - Add new subscriber
+2 - Delete specific subscriber
+3 - Find subscribers by name
+4 - Show all subscribers
+5 - Quit
+4
+1) Eve C 34535435 
+2) Eve B 9350948543 
+3) Aaaaaaaaaaaaaaaaaaaa Aaaaaaaaaaaaaaaaaaaa 33333333333 
+
+Choose action:
+1 - Add new subscriber
+2 - Delete specific subscriber
+3 - Find subscribers by name
+4 - Show all subscribers
+5 - Quit
+A
+The input is incorrect, try again.
+
+Choose action:
+1 - Add new subscriber
+2 - Delete specific subscriber
+3 - Find subscribers by name
+4 - Show all subscribers
+5 - Quit
+5
+valya:~/Eltex/HW6$ 
