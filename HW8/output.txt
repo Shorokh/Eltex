@@ -1,0 +1,76 @@
+virtual-machine:~/Eltex/HW7$ make                       //build project
+gcc -c lib/src/main.c
+mv main.o lib/obj
+gcc -c lib/src/add.c
+mv add.o lib/obj
+gcc -c lib/src/sub.c
+mv sub.o lib/obj
+gcc -c lib/src/mul.c
+mv mul.o lib/obj
+gcc -c lib/src/div.c
+mv div.o lib/obj
+ar r lib/libcalc.a lib/obj/*.o
+gcc -o prog main.c -L./lib -lcalc
+virtual-machine:~/Eltex/HW7$ ./prog                     //start project
+Start calc...
+Choose action 
+1 - Addition
+2 - Subtraction
+3 - Multiplication
+4 - Division
+5 - Quit the program
+1
+Print first summand:5
+Print second summand:1
+Result: 6
+
+Choose action 
+1 - Addition
+2 - Subtraction
+3 - Multiplication
+4 - Division
+5 - Quit the program
+2
+Print minuend:5
+Print subtrahend:1
+Result: 4
+
+Choose action 
+1 - Addition
+2 - Subtraction
+3 - Multiplication
+4 - Division
+5 - Quit the program
+3
+Print first multiplier:5
+Print second multiplier:4
+Result: 20
+
+Choose action 
+1 - Addition
+2 - Subtraction
+3 - Multiplication
+4 - Division
+5 - Quit the program
+4
+Print dividend:5
+Print divisor:4
+Result: 1
+
+Choose action 
+1 - Addition
+2 - Subtraction
+3 - Multiplication
+4 - Division
+5 - Quit the program
+24342343
+Comand must be positive intrger between 1 and 5
+
+Choose action 
+1 - Addition
+2 - Subtraction
+3 - Multiplication
+4 - Division
+5 - Quit the program
+5
+Quit calc...
