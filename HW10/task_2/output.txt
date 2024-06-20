@@ -1,0 +1,9 @@
+virtual-machine:~/Eltex/HW10/task_2$ make
+virtual-machine:~/Eltex/HW10/task_2$ ./main
+Name            PID             PPID
+Parent          42562           18537
+Child 1         42563           42562
+Child 2         42564           42562
+Child 5         42565           42564
+Child 3         42566           42563
+Child 4         42567           42563
