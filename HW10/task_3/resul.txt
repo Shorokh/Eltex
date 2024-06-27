@@ -1,0 +1,40 @@
+virtual-machine:~/Eltex/HW10/task_3$ make
+virtual-machine:~/Eltex/HW10/task_3$ ./interpreter 
+Comand intrpreter start...
+not bash> lls
+execvp failed: No such file or directory
+not bash> ls
+hdr  interpreter  Makefile  obj  src
+not bash> cd hdr             
+not bash> ls
+executor.h
+not bash> ls -all
+total 12
+drwxr-xr-x 2 valya trpo 4096 Jun 27 19:19 .
+drwxr-xr-x 5 valya trpo 4096 Jun 27 18:54 ..
+-rw-r--r-- 1 valya trpo  231 Jun 27 18:53 executor.h
+not bash> cat executor.h
+#ifndef __EXECUTOR_H__
+#define __EXECUTOR_H__
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <sys/wait.h>
+
+#define MAX_LINE_LENGTH 80
+#define MAX_ARGS 10
+
+int commandInterpreter();
+
+#endif
+not bash> touch test.txt
+not bash> ls
+executor.h  test.txt
+not bash> rm test.txt
+not bash> ls
+executor.h
+not bash> exit
+Comand intrpreter end...
+virtual-machine:~/Eltex/HW10/task_3$
